@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/b7/77/37/b777378f8e5b630c91a196f7ab590432.jpg);
+}
+
+.quadrado{
+text-align: center;
+width: 50px;
+background: rgb(247, 251, 2);
+display: inline-block;
+padding: 40px;
+/* espaçamento Interno para o conteudo dentro do quadrado "\\\ */
+font-size: 60px;
+/* /tamanho de fonte tx ou 0) centro do quadrado "/ */
+margin: 5px;
+/* mento entre */
+cursor: pointer;
+/* mostrsr o cursor de mao o mouse pasa sobre os quadrados */
+color: rgb(251, 176, 0);
+/* cor */
+}
+
+.jogador,
+.Vencedor{
+font-size: 30px;
+margin-top: 10px;
+}
+button{
+margin-top: 10px;
+width: 10%;
+height: 30px;
+background: rgb(0, 243, 122);
+cursor: pointer;
+}

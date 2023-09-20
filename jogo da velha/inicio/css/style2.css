@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/1363717602/pt/foto/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=SFNsLJpNY4M3zjgzRCBMG4G1S-XI7AmrPgcMaplmaB8=);
+}
+
+.quadrado{
+text-align: center;
+width: 50px;
+background: rgb(255, 0, 0);
+display: inline-block;
+padding: 40px;
+/* espaçamento Interno para o conteudo dentro do quadrado "\\\ */
+font-size: 60px;
+/* /tamanho de fonte tx ou 0) centro do quadrado "/ */
+margin: 5px;
+/* mento entre */
+cursor: pointer;
+/* mostrsr o cursor de mao o mouse pasa sobre os quadrados */
+color: #ccc;
+/* cor */
+}
+
+.jogador,
+.Vencedor{
+font-size: 30px;
+margin-top: 10px;
+}
+button{
+margin-top: 10px;
+width: 10%;
+height: 30px;
+background: #ccc;
+cursor: pointer;
+}
